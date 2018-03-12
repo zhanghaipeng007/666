@@ -1,0 +1,387 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+html{
+	font-size:62.5%;
+	background: #fff;
+}
+.pull-left {
+  	float: left !important;
+}
+.pull-right {
+  	float: right !important;
+}
+
+.clearfix() {
+	  &:before,
+	  &:after {
+	    content: " ";
+	    display: table;
+	  }
+	  &:after {
+	    clear: both;
+	  }
+}
+::selection {
+   	background:#d3d3d3; 
+    color:#555;
+}
+.center-block {
+	width: 900px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.dis{
+    display: inline-block;
+}
+.tan{
+	display: flex;jia
+    flex-direction: row;
+}
+
+
+
+.head {
+	width: 100%;
+}
+.head_top {
+	width: 100%;
+	padding-bottom: 31px;
+	padding-top: 48px;
+	box-sizing: border-box;
+}
+.logo{
+	padding-top: 5px;
+	box-sizing: border-box;
+}
+.logo img {
+	width: 349px;
+	height: 43px;
+	display: inline-block;
+	text-align: right;
+}
+.dianhua {
+	float: right;	
+}
+.dianhua p {
+	font-size: 16px;
+	line-height: 22px;
+}
+
+
+.banner{
+	width: 100%;
+	background: url(../img/4-banner.png) no-repeat center;
+	background-size: 100% 100%;
+	padding-bottom: 521px;
+	box-sizing: border-box;
+}
+.nav{
+	width: 90%;
+	background: #000;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.nav ul li{
+	display: inline-block;	
+	width: 18%;
+	text-align: center;
+	list-style: none;
+	font-size: 15px;
+	color: #fff;
+	line-height: 48px;
+}
+.nav ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+
+
+
+.jianjie{
+	width: 100%;
+	padding-top: 81px;
+	box-sizing: border-box;
+}
+.wen{
+	width: 100%;
+	padding: 0 12px 0 31px;
+	box-sizing: border-box;
+}
+.wen_top{
+	width: 811px;
+}
+.wen_logo{
+	width: 478px;
+	float: left;
+	padding: 0 10px 0 10px;
+	box-sizing: border-box;
+}
+.wen_logo h1{
+	font-size: 36px;
+	margin-bottom: 5px;
+}
+.wen_logo h6{
+	font-size: 16px;
+	margin-bottom: 35px;
+}
+.wen_logo p{
+	text-indent: 32px;
+	font-size: 14px;
+	color: #666666;
+}
+.wen_logo p:nth-last-child(2){
+	margin-bottom: 50px;
+}
+.wen_you img{
+	width: 330px;
+	height: 315px;
+}
+.wen_bottom{
+	width: 811px;
+	margin-top: 25px;
+}
+.wen_tu{
+	display: inline-block;
+	text-align: right;
+}
+.wen_tu img{
+	width: 506px;
+	height: 291px;
+}
+.you_tu{
+	float: right;
+}
+.you_tu img{
+	width: 179px;
+	height: 291px;
+}
+
+
+
+
+.jiazhi{
+	width: 100%;
+	padding: 90px 0 30px 0;
+	box-sizing: border-box;
+}
+.jiazhi_guan{
+	width: 100%;
+}
+.jiazhi_guan h1{
+	text-align: center;
+	font-size: 32px;
+	font-weight: 100;
+}
+.jiazhi_guan h2{
+	text-align: center;
+	font-size: 30px;
+	font-weight: 100;
+}
+.wu{
+	width: 100%;
+	padding-top: 80px;
+	box-sizing: border-box;
+}
+.feng{
+	width: 90px;
+	display: inline-block;
+	margin: 0 40px 0 50px;
+}
+.feng img{
+	width: 58px;
+	height: 51px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.feng h3{
+	text-align: center;
+	margin-top: 18px;
+	font-weight: 100;
+	color: #273f5c;
+}
+.feng h4{
+	text-align: center;
+	font-weight: 100;
+	margin-bottom: 17px;
+	color: #273f5c;
+}
+.feng p{
+	text-align: center;
+	font-size: 12px;
+	color: #273f5c;
+}
+
+
+
+
+
+.footer{
+	width: 100%;
+	background-image: url(../img/4-dibubeijing.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-top: 78px;
+    box-sizing: border-box;
+}
+.foot{
+	width: 100%;
+	padding-bottom: 50px;
+	box-sizing: border-box;
+}
+.foot_zuo{
+	width: 372px;
+	display: inline-block;
+	padding: 85px 10px 0 10px;
+	box-sizing: border-box;
+}
+.foot_zuo h1{
+	color: #fff;
+	margin-bottom: 40px;
+}
+.foot_zuo p{
+	color: #fff;
+	line-height: 24px;
+}
+.foot_you{
+	width: 270px;
+	float: right;
+	padding: 85px 0 0 0;
+	box-sizing: border-box;
+}
+.foot_you form{
+	display: inline-block;
+}
+.foot_you h1{
+	color: #fff;
+	margin-bottom: 10px;
+}
+.foot_you input{
+	width: 265px;
+	height: 30px;
+	color: #fff;
+	margin-bottom: 5px;
+	background: #34393c;
+	border: 0;
+	border-radius: 5px;
+	outline: none;
+}
+.foot_you input:nth-last-child(2){
+	height: 50px;
+}
+.foot_you button{
+	width: 265px;
+	height: 30px;
+	color: #fff;
+	background: #f27620;
+	border: 0;
+	border-radius: 5px;
+	outline: none;
+}
+.banben{
+	width: 100%;
+	background: #000;
+}
+.banben p{
+	text-align: right;
+	color: #7e8083;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
